@@ -13,11 +13,37 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <div class="grid grid--1x2">
-      <div style="height: 100px; background: gold"></div>
-      <div style="height: 100px; background: dodgerblue"></div>
-      <div></div>
+  <body style="padding: 5rem">
+    <div class="card testimonials">
+      <div class="grid grid--1x2">
+        <div class="testimonials__image">
+          <img src="./icon/WechatIMG228.jpg" alt="my photo" />
+
+          <span class="icon-container icon-container--accent">
+            <svg class="icon icon--white icon--small">
+              <use xlink:href="icon/sprite.svg#quotes"></use>
+            </svg>
+          </span>
+        </div>
+        <blockquote class="quote">
+          <p class="quote__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum a pariatur
+            ipsam molestias! Illum quo dolores ullam facere porro suscipit.
+          </p>
+          <footer>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary quote__line">
+                  <use xlink:href="icon/sprite.svg#line"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title quote__author">Zeyang Cheng</h3>
+                <p class="quote__organization">ABC company</p>
+              </div>
+            </div>
+          </footer>
+        </blockquote>
     </div>
   </body>
 </html>
