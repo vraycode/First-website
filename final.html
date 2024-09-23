@@ -14,22 +14,19 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="callout callout--primary">
-      <div class="grid grid--1x2">
-        <div class="callout__content">
-          <h2 class="callout__heading">Ready to get started?</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
-            rem pariatur fuga, officia quia labore perferendis adipisci fugiat
-            voluptatibus praesentium, voluptate minima impedit aspernatur
-            quaerat nostrum ducimus. Animi tempore praesentium cum pariatur?
-            Aliquam cumque recusandae tenetur animi voluptates. Consequuntur,
-            vitae.
-          </p>
-        </div>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item 1</h2>
 
-        <a href="#" class="btn btn--secondary btn--strenched">Get started</a>
+        <svg class="icon icon--primary collapsible__chevron">
+          <use xlink:href="icon/sprite.svg#chevron"></use>
+        </svg>
+      </header>
+
+      <div class="collapsible__content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, corporis.
       </div>
     </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>
