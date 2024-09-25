@@ -653,3 +653,24 @@ a {
     gap: 8rem 4rem; /* 水平和垂直间距 */
   }
 }
+
+/* features */
+.feature_heading {
+  margin: 1rem 0;
+}
+.feature {
+  gap: 4rem 2rem;
+  margin: 12rem 0;
+}
+.feature:first-of-type {
+  margin-top: 6rem;
+}
+.feature__image {
+  width: 100%;
+}
+
+@media screen and (min-wdith: 768px) {
+  .feature:nth-of-type(even).fearure__content {
+    order: 2;
+  }
+}
