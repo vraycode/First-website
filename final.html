@@ -14,49 +14,83 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <section class="block">
-      <header class="block__header">
-        <h2>What our Customers are Saying</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est iusto
-          obcaecati doloremque, maiores eveniet veritatis.
-        </p>
-        <div class="container">
-          <div class="card testimonials">
-            <div class="grid grid--1x2">
-              <div class="testimonials__image">
-                <img src="./icon/WechatIMG228.jpg" alt="my photo" />
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">PRODUCTS</h2>
 
-                <span class="icon-container icon-container--accent">
-                  <svg class="icon icon--white icon--small">
-                    <use xlink:href="icon/sprite.svg#quotes"></use>
-                  </svg>
-                </span>
-              </div>
-              <blockquote class="quote">
-                <p class="quote__text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
-                  a pariatur ipsam molestias! Illum quo dolores ullam facere
-                  porro suscipit.
-                </p>
-                <footer>
-                  <div class="media">
-                    <div class="media__image">
-                      <svg class="icon icon--primary quote__line">
-                        <use xlink:href="icon/sprite.svg#line"></use>
-                      </svg>
-                    </div>
-                    <div class="media__body">
-                      <h3 class="media__title quote__author">Zeyang Cheng</h3>
-                      <p class="quote__organization">ABC company</p>
-                    </div>
-                  </div>
-                </footer>
-              </blockquote>
-            </div>
+            <svg class="icon icon--primary collapsible__chevron">
+              <use xlink:href="icon/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Website Hosting</a></li>
+              <li><a href="#">Free Automated</a></li>
+              <li><a href="#">Wordpress</a></li>
+              <li><a href="#">Migrations</a></li>
+            </ul>
           </div>
-        </div>
-      </header>
-    </section>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">COMPANY</h2>
+
+            <svg class="icon icon--primary collapsible__chevron">
+              <use xlink:href="icon/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Affiliates</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">SUPPORT</h2>
+
+            <svg class="icon icon--primary collapsible__chevron">
+              <use xlink:href="icon/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">DOMAINS</h2>
+
+            <svg class="icon icon--primary collapsible__chevron">
+              <use xlink:href="icon/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Domain Checker</a></li>
+              <li><a href="#">Domain Transfer</a></li>
+              <li><a href="#">Free Domain</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__brand">
+          <img src="icon/logo.svg" alt="" />
+          <p class="footer__copyright">Copyright 2024 Zeyang Cheng</p>
+        </section>
+        <script src="./js/main.js"></script>
+      </div>
+    </footer>
   </body>
 </html>
